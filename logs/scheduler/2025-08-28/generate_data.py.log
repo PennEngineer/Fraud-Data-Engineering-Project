@@ -1,0 +1,473 @@
+[2025-08-28T04:30:46.148+0000] {processor.py:161} INFO - Started process (PID=170) to work on /opt/airflow/dags/generate_data.py
+[2025-08-28T04:30:46.149+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/generate_data.py for tasks to queue
+[2025-08-28T04:30:46.149+0000] {logging_mixin.py:188} INFO - [2025-08-28T04:30:46.149+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/generate_data.py
+[2025-08-28T04:30:46.152+0000] {logging_mixin.py:188} INFO - [2025-08-28T04:30:46.151+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/generate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_data.py", line 3, in <module>
+    from include.scripts.transaction_generator import main as _generate_transaction_data
+ModuleNotFoundError: No module named 'include'
+[2025-08-28T04:30:46.152+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_data.py
+[2025-08-28T04:30:46.160+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/generate_data.py took 0.013 seconds
+[2025-08-28T04:31:16.357+0000] {processor.py:161} INFO - Started process (PID=181) to work on /opt/airflow/dags/generate_data.py
+[2025-08-28T04:31:16.358+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/generate_data.py for tasks to queue
+[2025-08-28T04:31:16.358+0000] {logging_mixin.py:188} INFO - [2025-08-28T04:31:16.358+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/generate_data.py
+[2025-08-28T04:31:16.363+0000] {logging_mixin.py:188} INFO - [2025-08-28T04:31:16.362+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/generate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_data.py", line 3, in <module>
+    from include.scripts.transaction_generator import main as _generate_transaction_data
+ModuleNotFoundError: No module named 'include'
+[2025-08-28T04:31:16.363+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_data.py
+[2025-08-28T04:31:16.377+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/generate_data.py took 0.024 seconds
+[2025-08-28T05:16:03.789+0000] {processor.py:161} INFO - Started process (PID=176) to work on /opt/airflow/dags/generate_data.py
+[2025-08-28T05:16:03.789+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/generate_data.py for tasks to queue
+[2025-08-28T05:16:03.793+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:16:03.793+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:16:03.798+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:16:03.797+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/generate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_data.py", line 3, in <module>
+    from include.scripts.transaction_generator import main as _generate_transaction_data
+ModuleNotFoundError: No module named 'include'
+[2025-08-28T05:16:03.798+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:16:03.809+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/generate_data.py took 0.022 seconds
+[2025-08-28T05:16:33.966+0000] {processor.py:161} INFO - Started process (PID=187) to work on /opt/airflow/dags/generate_data.py
+[2025-08-28T05:16:33.966+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/generate_data.py for tasks to queue
+[2025-08-28T05:16:33.967+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:16:33.967+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:16:33.970+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:16:33.970+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/generate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_data.py", line 3, in <module>
+    from include.scripts.transaction_generator import main as _generate_transaction_data
+ModuleNotFoundError: No module named 'include'
+[2025-08-28T05:16:33.970+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:16:33.986+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/generate_data.py took 0.023 seconds
+[2025-08-28T05:17:04.171+0000] {processor.py:161} INFO - Started process (PID=198) to work on /opt/airflow/dags/generate_data.py
+[2025-08-28T05:17:04.172+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/generate_data.py for tasks to queue
+[2025-08-28T05:17:04.173+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:17:04.173+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:17:04.178+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:17:04.177+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/generate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_data.py", line 3, in <module>
+    from include.scripts.transaction_generator import main as _generate_transaction_data
+ModuleNotFoundError: No module named 'include'
+[2025-08-28T05:17:04.178+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:17:04.195+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/generate_data.py took 0.027 seconds
+[2025-08-28T05:18:12.980+0000] {processor.py:161} INFO - Started process (PID=176) to work on /opt/airflow/dags/generate_data.py
+[2025-08-28T05:18:12.980+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/generate_data.py for tasks to queue
+[2025-08-28T05:18:12.981+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:18:12.981+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:18:12.994+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:18:12.991+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/generate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_data.py", line 3, in <module>
+    from include.scripts.transaction_generator import main as _generate_transaction_data
+ModuleNotFoundError: No module named 'include'
+[2025-08-28T05:18:12.995+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:18:13.010+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/generate_data.py took 0.032 seconds
+[2025-08-28T05:18:43.181+0000] {processor.py:161} INFO - Started process (PID=187) to work on /opt/airflow/dags/generate_data.py
+[2025-08-28T05:18:43.182+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/generate_data.py for tasks to queue
+[2025-08-28T05:18:43.182+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:18:43.182+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:18:43.186+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:18:43.185+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/generate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_data.py", line 3, in <module>
+    from include.scripts.transaction_generator import main as _generate_transaction_data
+ModuleNotFoundError: No module named 'include'
+[2025-08-28T05:18:43.186+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:18:43.200+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/generate_data.py took 0.021 seconds
+[2025-08-28T05:19:13.359+0000] {processor.py:161} INFO - Started process (PID=198) to work on /opt/airflow/dags/generate_data.py
+[2025-08-28T05:19:13.360+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/generate_data.py for tasks to queue
+[2025-08-28T05:19:13.361+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:19:13.361+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:19:13.364+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:19:13.364+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/generate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_data.py", line 3, in <module>
+    from include.scripts.transaction_generator import main as _generate_transaction_data
+ModuleNotFoundError: No module named 'include'
+[2025-08-28T05:19:13.365+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:19:13.379+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/generate_data.py took 0.022 seconds
+[2025-08-28T05:19:43.547+0000] {processor.py:161} INFO - Started process (PID=209) to work on /opt/airflow/dags/generate_data.py
+[2025-08-28T05:19:43.548+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/generate_data.py for tasks to queue
+[2025-08-28T05:19:43.550+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:19:43.550+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:19:43.553+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:19:43.552+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/generate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_data.py", line 3, in <module>
+    from include.scripts.transaction_generator import main as _generate_transaction_data
+ModuleNotFoundError: No module named 'include'
+[2025-08-28T05:19:43.553+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:19:43.566+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/generate_data.py took 0.022 seconds
+[2025-08-28T05:20:13.792+0000] {processor.py:161} INFO - Started process (PID=220) to work on /opt/airflow/dags/generate_data.py
+[2025-08-28T05:20:13.792+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/generate_data.py for tasks to queue
+[2025-08-28T05:20:13.793+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:20:13.793+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:20:13.796+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:20:13.795+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/generate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_data.py", line 3, in <module>
+    from include.scripts.transaction_generator import main as _generate_transaction_data
+ModuleNotFoundError: No module named 'include'
+[2025-08-28T05:20:13.796+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:20:13.807+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/generate_data.py took 0.019 seconds
+[2025-08-28T05:20:44.026+0000] {processor.py:161} INFO - Started process (PID=231) to work on /opt/airflow/dags/generate_data.py
+[2025-08-28T05:20:44.028+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/generate_data.py for tasks to queue
+[2025-08-28T05:20:44.028+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:20:44.028+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:20:44.032+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:20:44.031+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/generate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_data.py", line 3, in <module>
+    from include.scripts.transaction_generator import main as _generate_transaction_data
+ModuleNotFoundError: No module named 'include'
+[2025-08-28T05:20:44.032+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:20:44.047+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/generate_data.py took 0.025 seconds
+[2025-08-28T05:21:14.270+0000] {processor.py:161} INFO - Started process (PID=242) to work on /opt/airflow/dags/generate_data.py
+[2025-08-28T05:21:14.271+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/generate_data.py for tasks to queue
+[2025-08-28T05:21:14.272+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:21:14.272+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:21:14.276+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:21:14.276+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/generate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_data.py", line 3, in <module>
+    from include.scripts.transaction_generator import main as _generate_transaction_data
+ModuleNotFoundError: No module named 'include'
+[2025-08-28T05:21:14.277+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:21:14.291+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/generate_data.py took 0.024 seconds
+[2025-08-28T05:22:15.243+0000] {processor.py:161} INFO - Started process (PID=175) to work on /opt/airflow/dags/generate_data.py
+[2025-08-28T05:22:15.245+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/generate_data.py for tasks to queue
+[2025-08-28T05:22:15.246+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:22:15.246+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:22:15.260+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:22:15.257+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/generate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_data.py", line 3, in <module>
+    from include.scripts.transaction_generator import main as _generate_transaction_data
+ModuleNotFoundError: No module named 'include'
+[2025-08-28T05:22:15.260+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:22:15.279+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/generate_data.py took 0.038 seconds
+[2025-08-28T05:22:45.458+0000] {processor.py:161} INFO - Started process (PID=186) to work on /opt/airflow/dags/generate_data.py
+[2025-08-28T05:22:45.459+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/generate_data.py for tasks to queue
+[2025-08-28T05:22:45.460+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:22:45.459+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:22:45.463+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:22:45.462+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/generate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_data.py", line 3, in <module>
+    from include.scripts.transaction_generator import main as _generate_transaction_data
+ModuleNotFoundError: No module named 'include'
+[2025-08-28T05:22:45.463+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:22:45.478+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/generate_data.py took 0.023 seconds
+[2025-08-28T05:23:15.681+0000] {processor.py:161} INFO - Started process (PID=197) to work on /opt/airflow/dags/generate_data.py
+[2025-08-28T05:23:15.682+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/generate_data.py for tasks to queue
+[2025-08-28T05:23:15.683+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:23:15.682+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:23:15.687+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:23:15.686+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/generate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_data.py", line 3, in <module>
+    from include.scripts.transaction_generator import main as _generate_transaction_data
+ModuleNotFoundError: No module named 'include'
+[2025-08-28T05:23:15.687+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:23:15.702+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/generate_data.py took 0.024 seconds
+[2025-08-28T05:23:45.891+0000] {processor.py:161} INFO - Started process (PID=208) to work on /opt/airflow/dags/generate_data.py
+[2025-08-28T05:23:45.892+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/generate_data.py for tasks to queue
+[2025-08-28T05:23:45.894+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:23:45.894+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:23:45.897+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:23:45.897+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/generate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_data.py", line 3, in <module>
+    from include.scripts.transaction_generator import main as _generate_transaction_data
+ModuleNotFoundError: No module named 'include'
+[2025-08-28T05:23:45.897+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:23:45.910+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/generate_data.py took 0.022 seconds
+[2025-08-28T05:24:16.129+0000] {processor.py:161} INFO - Started process (PID=219) to work on /opt/airflow/dags/generate_data.py
+[2025-08-28T05:24:16.130+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/generate_data.py for tasks to queue
+[2025-08-28T05:24:16.130+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:24:16.130+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:24:16.136+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:24:16.135+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/generate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_data.py", line 3, in <module>
+    from include.scripts.transaction_generator import main as _generate_transaction_data
+ModuleNotFoundError: No module named 'include'
+[2025-08-28T05:24:16.136+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:24:16.150+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/generate_data.py took 0.025 seconds
+[2025-08-28T05:24:46.372+0000] {processor.py:161} INFO - Started process (PID=230) to work on /opt/airflow/dags/generate_data.py
+[2025-08-28T05:24:46.373+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/generate_data.py for tasks to queue
+[2025-08-28T05:24:46.374+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:24:46.374+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:24:46.380+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:24:46.379+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/generate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_data.py", line 3, in <module>
+    from include.scripts.transaction_generator import main as _generate_transaction_data
+ModuleNotFoundError: No module named 'include'
+[2025-08-28T05:24:46.380+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:24:46.399+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/generate_data.py took 0.033 seconds
+[2025-08-28T05:25:16.597+0000] {processor.py:161} INFO - Started process (PID=241) to work on /opt/airflow/dags/generate_data.py
+[2025-08-28T05:25:16.598+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/generate_data.py for tasks to queue
+[2025-08-28T05:25:16.599+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:25:16.598+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:25:16.602+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:25:16.601+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/generate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_data.py", line 3, in <module>
+    from include.scripts.transaction_generator import main as _generate_transaction_data
+ModuleNotFoundError: No module named 'include'
+[2025-08-28T05:25:16.602+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:25:16.615+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/generate_data.py took 0.021 seconds
+[2025-08-28T05:25:46.831+0000] {processor.py:161} INFO - Started process (PID=252) to work on /opt/airflow/dags/generate_data.py
+[2025-08-28T05:25:46.832+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/generate_data.py for tasks to queue
+[2025-08-28T05:25:46.833+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:25:46.833+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:25:46.836+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:25:46.835+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/generate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_data.py", line 3, in <module>
+    from include.scripts.transaction_generator import main as _generate_transaction_data
+ModuleNotFoundError: No module named 'include'
+[2025-08-28T05:25:46.836+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:25:46.847+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/generate_data.py took 0.019 seconds
+[2025-08-28T05:26:17.064+0000] {processor.py:161} INFO - Started process (PID=263) to work on /opt/airflow/dags/generate_data.py
+[2025-08-28T05:26:17.065+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/generate_data.py for tasks to queue
+[2025-08-28T05:26:17.065+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:26:17.065+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:26:17.069+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:26:17.068+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/generate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_data.py", line 3, in <module>
+    from include.scripts.transaction_generator import main as _generate_transaction_data
+ModuleNotFoundError: No module named 'include'
+[2025-08-28T05:26:17.069+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:26:17.079+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/generate_data.py took 0.017 seconds
+[2025-08-28T05:26:25.231+0000] {processor.py:161} INFO - Started process (PID=168) to work on /opt/airflow/dags/generate_data.py
+[2025-08-28T05:26:25.232+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/generate_data.py for tasks to queue
+[2025-08-28T05:26:25.233+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:26:25.233+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:26:25.237+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:26:25.235+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/generate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_data.py", line 3, in <module>
+    from include.scripts.transaction_generator import main as _generate_transaction_data
+ModuleNotFoundError: No module named 'include'
+[2025-08-28T05:26:25.237+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:26:25.245+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/generate_data.py took 0.015 seconds
+[2025-08-28T05:26:55.406+0000] {processor.py:161} INFO - Started process (PID=180) to work on /opt/airflow/dags/generate_data.py
+[2025-08-28T05:26:55.407+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/generate_data.py for tasks to queue
+[2025-08-28T05:26:55.407+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:26:55.407+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:26:55.410+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:26:55.409+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/generate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_data.py", line 3, in <module>
+    from include.scripts.transaction_generator import main as _generate_transaction_data
+ModuleNotFoundError: No module named 'include'
+[2025-08-28T05:26:55.410+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:26:55.420+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/generate_data.py took 0.016 seconds
+[2025-08-28T05:27:25.614+0000] {processor.py:161} INFO - Started process (PID=191) to work on /opt/airflow/dags/generate_data.py
+[2025-08-28T05:27:25.615+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/generate_data.py for tasks to queue
+[2025-08-28T05:27:25.615+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:27:25.615+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:27:25.618+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:27:25.617+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/generate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_data.py", line 3, in <module>
+    from include.scripts.transaction_generator import main as _generate_transaction_data
+ModuleNotFoundError: No module named 'include'
+[2025-08-28T05:27:25.618+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:27:25.627+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/generate_data.py took 0.014 seconds
+[2025-08-28T05:27:55.821+0000] {processor.py:161} INFO - Started process (PID=202) to work on /opt/airflow/dags/generate_data.py
+[2025-08-28T05:27:55.821+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/generate_data.py for tasks to queue
+[2025-08-28T05:27:55.822+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:27:55.822+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:27:55.825+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:27:55.824+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/generate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_data.py", line 3, in <module>
+    from include.scripts.transaction_generator import main as _generate_transaction_data
+ModuleNotFoundError: No module named 'include'
+[2025-08-28T05:27:55.825+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:27:55.836+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/generate_data.py took 0.017 seconds
+[2025-08-28T05:28:26.063+0000] {processor.py:161} INFO - Started process (PID=213) to work on /opt/airflow/dags/generate_data.py
+[2025-08-28T05:28:26.064+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/generate_data.py for tasks to queue
+[2025-08-28T05:28:26.065+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:28:26.065+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:28:26.068+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:28:26.067+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/generate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_data.py", line 3, in <module>
+    from include.scripts.transaction_generator import main as _generate_transaction_data
+ModuleNotFoundError: No module named 'include'
+[2025-08-28T05:28:26.068+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:28:26.080+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/generate_data.py took 0.019 seconds
+[2025-08-28T05:28:56.296+0000] {processor.py:161} INFO - Started process (PID=236) to work on /opt/airflow/dags/generate_data.py
+[2025-08-28T05:28:56.297+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/generate_data.py for tasks to queue
+[2025-08-28T05:28:56.298+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:28:56.298+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:28:56.300+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:28:56.300+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/generate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_data.py", line 3, in <module>
+    from include.scripts.transaction_generator import main as _generate_transaction_data
+ModuleNotFoundError: No module named 'include'
+[2025-08-28T05:28:56.300+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:28:56.312+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/generate_data.py took 0.017 seconds
+[2025-08-28T05:29:26.528+0000] {processor.py:161} INFO - Started process (PID=253) to work on /opt/airflow/dags/generate_data.py
+[2025-08-28T05:29:26.530+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/generate_data.py for tasks to queue
+[2025-08-28T05:29:26.530+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:29:26.530+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:29:26.534+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:29:26.533+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/generate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_data.py", line 3, in <module>
+    from include.scripts.transaction_generator import main as _generate_transaction_data
+ModuleNotFoundError: No module named 'include'
+[2025-08-28T05:29:26.534+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:29:26.545+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/generate_data.py took 0.020 seconds
+[2025-08-28T05:29:35.995+0000] {processor.py:161} INFO - Started process (PID=169) to work on /opt/airflow/dags/generate_data.py
+[2025-08-28T05:29:35.996+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/generate_data.py for tasks to queue
+[2025-08-28T05:29:35.997+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:29:35.997+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:29:36.001+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:29:36.001+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/generate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_data.py", line 3, in <module>
+    from include.scripts.transaction_generator import main as _generate_transaction_data
+ModuleNotFoundError: No module named 'include'
+[2025-08-28T05:29:36.001+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:29:36.009+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/generate_data.py took 0.016 seconds
+[2025-08-28T05:30:06.206+0000] {processor.py:161} INFO - Started process (PID=186) to work on /opt/airflow/dags/generate_data.py
+[2025-08-28T05:30:06.207+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/generate_data.py for tasks to queue
+[2025-08-28T05:30:06.207+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:30:06.207+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:30:06.211+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:30:06.210+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/generate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_data.py", line 3, in <module>
+    from include.scripts.transaction_generator import main as _generate_transaction_data
+ModuleNotFoundError: No module named 'include'
+[2025-08-28T05:30:06.211+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:30:06.224+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/generate_data.py took 0.021 seconds
+[2025-08-28T05:30:36.406+0000] {processor.py:161} INFO - Started process (PID=210) to work on /opt/airflow/dags/generate_data.py
+[2025-08-28T05:30:36.408+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/generate_data.py for tasks to queue
+[2025-08-28T05:30:36.408+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:30:36.408+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:30:36.412+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:30:36.411+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/generate_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/generate_data.py", line 3, in <module>
+    from include.scripts.transaction_generator import main as _generate_transaction_data
+ModuleNotFoundError: No module named 'include'
+[2025-08-28T05:30:36.412+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:30:36.425+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/generate_data.py took 0.022 seconds
+[2025-08-28T05:30:48.498+0000] {processor.py:161} INFO - Started process (PID=227) to work on /opt/airflow/dags/generate_data.py
+[2025-08-28T05:30:48.499+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/generate_data.py for tasks to queue
+[2025-08-28T05:30:48.500+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:30:48.500+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:30:48.667+0000] {processor.py:840} INFO - DAG(s) 'generate_data' retrieved from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:30:48.760+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:30:48.759+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:generate_data
+[2025-08-28T05:30:48.762+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:30:48.762+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:generate_data
+[2025-08-28T05:30:48.764+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:30:48.764+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:generate_data
+[2025-08-28T05:30:48.764+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:30:48.764+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-28T05:30:48.767+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:30:48.767+0000] {dag.py:3069} INFO - Creating ORM DAG for generate_data
+[2025-08-28T05:30:48.771+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:30:48.771+0000] {dag.py:3834} INFO - Setting next_dagrun for generate_data to 2025-08-27 00:00:00+00:00, run_after=2025-08-28 00:00:00+00:00
+[2025-08-28T05:30:48.776+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/generate_data.py took 0.281 seconds
+[2025-08-28T05:31:05.071+0000] {processor.py:161} INFO - Started process (PID=169) to work on /opt/airflow/dags/generate_data.py
+[2025-08-28T05:31:05.072+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/generate_data.py for tasks to queue
+[2025-08-28T05:31:05.073+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:31:05.073+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:31:05.106+0000] {processor.py:840} INFO - DAG(s) 'generate_data' retrieved from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:31:05.116+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:31:05.116+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-28T05:31:05.125+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:31:05.125+0000] {dag.py:3834} INFO - Setting next_dagrun for generate_data to 2025-08-27 00:00:00+00:00, run_after=2025-08-28 00:00:00+00:00
+[2025-08-28T05:31:05.130+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/generate_data.py took 0.061 seconds
+[2025-08-28T05:31:35.257+0000] {processor.py:161} INFO - Started process (PID=180) to work on /opt/airflow/dags/generate_data.py
+[2025-08-28T05:31:35.260+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/generate_data.py for tasks to queue
+[2025-08-28T05:31:35.260+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:31:35.260+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:31:35.302+0000] {processor.py:840} INFO - DAG(s) 'generate_data' retrieved from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:31:35.314+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:31:35.314+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-28T05:31:35.324+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:31:35.324+0000] {dag.py:3834} INFO - Setting next_dagrun for generate_data to 2025-08-27 00:00:00+00:00, run_after=2025-08-28 00:00:00+00:00
+[2025-08-28T05:31:35.331+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/generate_data.py took 0.076 seconds
+[2025-08-28T05:32:05.447+0000] {processor.py:161} INFO - Started process (PID=191) to work on /opt/airflow/dags/generate_data.py
+[2025-08-28T05:32:05.448+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/generate_data.py for tasks to queue
+[2025-08-28T05:32:05.449+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:32:05.449+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:32:05.494+0000] {processor.py:840} INFO - DAG(s) 'generate_data' retrieved from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:32:05.507+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:32:05.506+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-28T05:32:05.516+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:32:05.516+0000] {dag.py:3834} INFO - Setting next_dagrun for generate_data to 2025-08-27 00:00:00+00:00, run_after=2025-08-28 00:00:00+00:00
+[2025-08-28T05:32:05.523+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/generate_data.py took 0.079 seconds
+[2025-08-28T05:32:35.705+0000] {processor.py:161} INFO - Started process (PID=202) to work on /opt/airflow/dags/generate_data.py
+[2025-08-28T05:32:35.706+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/generate_data.py for tasks to queue
+[2025-08-28T05:32:35.707+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:32:35.707+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:32:35.751+0000] {processor.py:840} INFO - DAG(s) 'generate_data' retrieved from /opt/airflow/dags/generate_data.py
+[2025-08-28T05:32:35.767+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:32:35.767+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-28T05:32:35.780+0000] {logging_mixin.py:188} INFO - [2025-08-28T05:32:35.780+0000] {dag.py:3834} INFO - Setting next_dagrun for generate_data to 2025-08-27 00:00:00+00:00, run_after=2025-08-28 00:00:00+00:00
+[2025-08-28T05:32:35.789+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/generate_data.py took 0.086 seconds
